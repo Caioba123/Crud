@@ -1,0 +1,397 @@
+
+.card-container {
+    display: flex;
+    justify-content: center; 
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0251a5;
+  }
+
+  .card-body {
+    padding: 15px; 
+    padding-bottom: 20px;
+}
+
+.card-body {
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .azul {
+    color: #0076ff;
+  }
+  
+  .verde {
+    color: #00b84f;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  input,
+  .btn-entrar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .link-conta {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .link-conta:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-entrar {
+    background-color: #0076ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .btn-entrar:hover {
+    background-color: #005fd1;
+  }
+  
+  .login-cadastro img {
+    height: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1f1;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cadastro-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cadastro-box {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    text-align: center;
+    width: 350px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .azul {
+    color: #0076ff;
+  }
+  
+  
+  label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  input,
+  .btn-cadastrar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #4c00ff;
+    color: #333;
+  }
+  
+  .btn-cadastrar {
+    background-color: #0076ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #0076ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+
+  .btn-primary:hover {
+    background-color: #3e008a;
+  }
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+  }
+  
+  header {
+    background: #60d1e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    color: #3aa547;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .config-icon {
+    font-size: 18px;
+  }
+  
+  .banner {
+    background: url('https://img.freepik.com/vetores-gratis/fundo-de-rio-com-design-plano_23-2149453779.jpg?w=740') center/cover no-repeat;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-text {
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  .dots {
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .dot.active {
+    background-color: white;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+    background: white;
+  }
+  
+  .service {
+    width: 120px;
+    text-align: center;
+    color: #1c3d72;
+  }
+  
+  .service img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  
+  .h1 {
+ font: bold 24px 'Arial' , sans-serif;
+
+  }
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .card-header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ 
+  .card-body {
+    padding: 1.5rem;
+    flex: 1;
+  }
+  
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .card-footer {
+    background-color: #f8f9fa;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    color: #6c757d;
+    border-top: 1px solid #ddd;
+  }
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  
+  .text-body-secondary {
+    color: #6c757d;
+  }
+  
+
+  .card-title {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #000; 
+  }
+  
